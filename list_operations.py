@@ -20,30 +20,15 @@
 
 
 def head(input_list):
-    """
-    Return the first element of the input list.
-    [ A, B, C, D, E, F ] --> A
-    """
-
-    return None
+    return input_list[0]
 
 
 def tail(input_list):
-    """
-    Return all elements of the input list except the first.
-    [ A, B, C, D ] --> [ B, C, D ]
-    """
-
-    return []
+    return input_list[1:]
 
 
 def last(input_list):
-    """
-    Return the last element of the input list.
-    [ A, B, C, D ] --> D
-    """
-
-    return []
+    return input_list[-1]
 
 
 def init(input_list):
